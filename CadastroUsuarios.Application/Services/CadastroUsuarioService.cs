@@ -1,5 +1,5 @@
 ﻿using CadastroUsuario.Domain;
-using CadastroUsuario.Infrastructure.Interfaces;
+using Teste.Interfaces;
 using CadastroUsuarios.Application.Dto;
 using CadastroUsuarios.Application.Interfaces;
 using System;
@@ -40,16 +40,18 @@ namespace CadastroUsuarios.Application.Services
             return new CadastroUsuarioDto(result);
         }
 
-        public string Delete(Guid id)
+        public async Task<string> Remove(Guid id)
         {
-            var result = _repository.Delete(id);
+            var entity = await _repository.GetByGuid(id);
 
-            if (result != null)
+            var result = await _repository.Remove(entity);
+
+            if (result == 0)
             {
-                return "Usuário deletado.";
+                return "Ocorreu um erro ao remover o usuário.";
             }
 
-            return "Deu erro.";
+            return "Usuário removido";
         }
     }
 }

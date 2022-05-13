@@ -1,10 +1,7 @@
 ﻿using CadastroUsuarios.Application.Dto;
 using CadastroUsuarios.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 
@@ -44,7 +41,7 @@ namespace Atividade_BancoSQL.Controllers
         [HttpDelete]
         public IActionResult Delete(Guid id)
         {
-            return Ok(_cadastroUsuarioService.Delete(id));
+            return Ok(_cadastroUsuarioService.Remove(id));
         }
     }
 }

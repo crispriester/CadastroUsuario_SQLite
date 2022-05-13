@@ -11,7 +11,7 @@ namespace CadastroUsuarios.Application.Interfaces
     {
         void Add(InputCadastroUsuarioDto usuarioDto);
 
-        string Delete(Guid id);
+        Task<string> Remove(Guid id);
 
         Task<List<CadastroUsuarioDto>> Get();
 

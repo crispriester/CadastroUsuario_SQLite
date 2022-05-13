@@ -10,7 +10,7 @@ namespace CadastroUsuario.Infrastructure.Interfaces
     {
         Task Add(T entity);
 
-        Task Delete(Guid id);
+        Task<int> Remove(T entity);
 
         Task<List<T>> Get();
 

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroUsuario", "Atividade_BancoSQL\CadastroUsuario.csproj", "{430D75E4-1C9D-4868-9CB8-625E682C9A24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroUsuario", "Atividade_BancoSQL\CadastroUsuario.csproj", "{430D75E4-1C9D-4868-9CB8-625E682C9A24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroUsuarios.Application", "CadastroUsuarios.Application\CadastroUsuarios.Application.csproj", "{814934E5-1763-48AC-85AA-6B114C166567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroUsuarios.Application", "CadastroUsuarios.Application\CadastroUsuarios.Application.csproj", "{814934E5-1763-48AC-85AA-6B114C166567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroUsuario.Domain", "CadastroUsuario.Domain\CadastroUsuario.Domain.csproj", "{F99C559D-13EB-4CE6-8F9B-F7D78AC36FCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroUsuario.Domain", "CadastroUsuario.Domain\CadastroUsuario.Domain.csproj", "{F99C559D-13EB-4CE6-8F9B-F7D78AC36FCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroUsuario.Infrastructure", "CadastroUsuario.Infrastructure\CadastroUsuario.Infrastructure.csproj", "{EF7C5B86-1E28-4C5A-8E97-0E11A6E9D1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroUsuario.Infrastructure", "CadastroUsuario.Infrastructure\CadastroUsuario.Infrastructure.csproj", "{EF7C5B86-1E28-4C5A-8E97-0E11A6E9D1DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste", "Teste\Teste.csproj", "{8E1E44A2-D7DE-4C13-BD62-2D34B41E8D29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EF7C5B86-1E28-4C5A-8E97-0E11A6E9D1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF7C5B86-1E28-4C5A-8E97-0E11A6E9D1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF7C5B86-1E28-4C5A-8E97-0E11A6E9D1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1E44A2-D7DE-4C13-BD62-2D34B41E8D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1E44A2-D7DE-4C13-BD62-2D34B41E8D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1E44A2-D7DE-4C13-BD62-2D34B41E8D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1E44A2-D7DE-4C13-BD62-2D34B41E8D29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

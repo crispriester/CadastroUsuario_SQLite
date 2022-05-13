@@ -1,0 +1,12 @@
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\bin\Debug\Teste.dll.config
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\bin\Debug\Teste.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\bin\Debug\Teste.pdb
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\bin\Debug\EntityFramework.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\bin\Debug\EntityFramework.xml
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\obj\Debug\Teste.csproj.AssemblyReference.cache
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\obj\Debug\Teste.csproj.CopyComplete
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\obj\Debug\Teste.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\Teste\obj\Debug\Teste.pdb

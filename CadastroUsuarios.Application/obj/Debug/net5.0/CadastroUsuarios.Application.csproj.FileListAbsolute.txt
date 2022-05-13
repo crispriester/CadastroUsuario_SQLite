@@ -1,0 +1,17 @@
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuarios.Application.deps.json
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuarios.Application.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\ref\CadastroUsuarios.Application.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuarios.Application.pdb
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuario.Domain.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuario.Infrastructure.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuario.Domain.pdb
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuario.Infrastructure.pdb
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.csproj.AssemblyReference.cache
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.AssemblyInfoInputs.cache
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.AssemblyInfo.cs
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.csproj.CoreCompileInputs.cache
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.csproj.CopyComplete
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\ref\CadastroUsuarios.Application.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.pdb

@@ -1,0 +1,12 @@
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\bin\Debug\net5.0\CadastroUsuario.Domain.deps.json
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\bin\Debug\net5.0\CadastroUsuario.Domain.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\bin\Debug\net5.0\ref\CadastroUsuario.Domain.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\bin\Debug\net5.0\CadastroUsuario.Domain.pdb
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\obj\Debug\net5.0\CadastroUsuario.Domain.csproj.AssemblyReference.cache
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\obj\Debug\net5.0\CadastroUsuario.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\obj\Debug\net5.0\CadastroUsuario.Domain.AssemblyInfoInputs.cache
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\obj\Debug\net5.0\CadastroUsuario.Domain.AssemblyInfo.cs
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\obj\Debug\net5.0\CadastroUsuario.Domain.csproj.CoreCompileInputs.cache
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\obj\Debug\net5.0\CadastroUsuario.Domain.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\obj\Debug\net5.0\ref\CadastroUsuario.Domain.dll
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuario.Domain\obj\Debug\net5.0\CadastroUsuario.Domain.pdb

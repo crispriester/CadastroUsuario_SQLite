@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace CadastroUsuario.Infrastructure.Repositories
 {
-    //public class CadastroUsuarioRepository : RepositoryBase<CadastroUsuarioEntity>, ICadastroUsuarioRepository
-    //{
-    //    public CadastroUsuarioRepository(CadastroUsuarioContext context) : base(context)
-    //    {
-    //    }
-    //}
+    public class CadastroUsuarioRepository : RepositoryBase<CadastroUsuarioEntity>, ICadastroUsuarioRepository
+    {
+        public CadastroUsuarioRepository(CadastroUsuarioContext context) : base(context)
+        {
+        }
+    }
 }
