@@ -10,46 +10,46 @@ using System.Threading.Tasks;
 
 namespace CadastroUsuarios.Application.Services
 {
-    //public class CadastroUsuarioService : ICadastroUsuarioService
-    //{
-    //    private readonly ICadastroUsuarioRepository _repository;
+    public class CadastroUsuarioService : ICadastroUsuarioService
+    {
+        private readonly ICadastroUsuarioRepository _repository;
 
-    //    public CadastroUsuarioService(ICadastroUsuarioRepository repository)
-    //    {
-    //        _repository = repository;
-    //    }
+        public CadastroUsuarioService(ICadastroUsuarioRepository repository)
+        {
+            _repository = repository;
+        }
 
-    //    public void Add(InputCadastroUsuarioDto usuarioDto)
-    //    {
-    //        var entidade = new CadastroUsuarioEntity(usuarioDto.Nome, usuarioDto.Sobrenome, usuarioDto.Login, usuarioDto.Password, usuarioDto.Telefone, usuarioDto.Endereco);
+        public void Add(InputCadastroUsuarioDto usuarioDto)
+        {
+            var entidade = new CadastroUsuarioEntity(usuarioDto.Nome, usuarioDto.Sobrenome, usuarioDto.Login, usuarioDto.Password, usuarioDto.Telefone, usuarioDto.Endereco);
 
-    //        _repository.Add(entidade);
-    //    }
+            _repository.Add(entidade);
+        }
 
-    //    public async Task<List<CadastroUsuarioDto>> Get()
-    //    {
-    //        var result = await _repository.Get();
+        public async Task<List<CadastroUsuarioDto>> Get()
+        {
+            var result = await _repository.Get();
 
-    //        return result.Select(x => new CadastroUsuarioDto(x.Id, x.Login, x.Password)).ToList();
-    //    }
+            return result.Select(x => new CadastroUsuarioDto(x)).ToList();
+        }
 
-    //    public async Task<CadastroUsuarioDto> GetById(Guid id)
-    //    {
-    //        var result = await _repository.GetByGuid(id);
+        public async Task<CadastroUsuarioDto> GetById(Guid id)
+        {
+            var result = await _repository.GetByGuid(id);
 
-    //        return new CadastroUsuarioDto(result.Id, result.Login, result.Password);
-    //    }
+            return new CadastroUsuarioDto(result);
+        }
 
-    //    public string GetById(Guid id)
-    //    {
-    //        var result = _repository.Delete(id);
+        public string Delete(Guid id)
+        {
+            var result = _repository.Delete(id);
 
-    //        if (result != null)
-    //        {
-    //            return "Usuário deletado.";
-    //        }
+            if (result != null)
+            {
+                return "Usuário deletado.";
+            }
 
-    //        return "Deu erro.";
-    //    }
-    //}
+            return "Deu erro.";
+        }
+    }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CadastroUsuario.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,15 +23,15 @@ namespace CadastroUsuarios.Application.Dto
 
         public string Endereco { get; set; }
 
-        public CadastroUsuarioDto(Guid id, string login, string password)
+        public CadastroUsuarioDto(CadastroUsuarioEntity entidade)
         {
-            Id = id;
-            //Nome = nome;
-            //Sobrenome = sobrenome;
-            //Telefone = telefone;
-            //Endereco = endereco;
-            Login = login;
-            Password = password;
+            Id = entidade.Id;
+            Nome = entidade.Nome;
+            Sobrenome = entidade.Sobrenome;
+            Telefone = entidade.Telefone;
+            Endereco = entidade.Endereco;
+            Login = entidade.Login;
+            Password = entidade.Password;
         }
     }
 }
