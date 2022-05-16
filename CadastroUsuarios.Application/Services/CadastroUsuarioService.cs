@@ -1,5 +1,6 @@
 ﻿using CadastroUsuario.Domain;
-using Teste.Interfaces;
+using CadastroUsuario.Infrastructure;
+using CadastroUsuario.Infrastructure.Interfaces;
 using CadastroUsuarios.Application.Dto;
 using CadastroUsuarios.Application.Interfaces;
 using System;

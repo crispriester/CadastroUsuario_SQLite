@@ -32,7 +32,7 @@ namespace CadastroUsuario.Infrastructure.Repositories
 
         public async Task<T> GetByGuid(Guid id)
         {
-            return await _context.Set<T>().FirstAsync(x => x.Id == id);
+            return await _context.Set<T>().FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<int> Remove(T entity)

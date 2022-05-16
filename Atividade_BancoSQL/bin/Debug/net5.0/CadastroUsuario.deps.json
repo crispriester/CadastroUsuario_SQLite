@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "CadastroUsuario/1.0.0": {
         "dependencies": {
+          "CadastroUsuario.Infrastructure": "1.0.0",
           "CadastroUsuarios.Application": "1.0.0",
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "5.0.17",

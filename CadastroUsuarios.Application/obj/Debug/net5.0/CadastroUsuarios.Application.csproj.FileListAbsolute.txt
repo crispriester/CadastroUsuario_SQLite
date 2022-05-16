@@ -15,3 +15,6 @@ C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Appl
 C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.dll
 C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\ref\CadastroUsuarios.Application.dll
 C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.pdb
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuarios.Application.runtimeconfig.json
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\bin\Debug\net5.0\CadastroUsuarios.Application.runtimeconfig.dev.json
+C:\Users\cristina.priester\source\repos\Atividade_BancoSQL\CadastroUsuarios.Application\obj\Debug\net5.0\CadastroUsuarios.Application.genruntimeconfig.cache

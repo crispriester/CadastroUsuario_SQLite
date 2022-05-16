@@ -1,5 +1,11 @@
+using CadastroUsuario.Infrastructure.Context;
+using CadastroUsuario.Infrastructure.Interfaces;
+using CadastroUsuario.Infrastructure.Repositories;
+using CadastroUsuarios.Application.Interfaces;
+using CadastroUsuarios.Application.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +29,9 @@ namespace Atividade_BancoSQL
             {
                 options.UseSqlite("Data Source=C:\\Users\\cristina.priester\\Desktop\\CadastroUsuario.db");
             });
+
+            services.AddScoped<ICadastroUsuarioService, CadastroUsuarioService>();
+            services.AddScoped<ICadastroUsuarioRepository, CadastroUsuarioRepository>();
 
             services.AddControllers();
 
